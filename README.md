@@ -89,6 +89,32 @@ Add to your `openclaw.json`:
 }
 ```
 
+
+### Open-source mode (Xiaomi)
+
+```
+{
+  "plugins": {
+    "entries": {
+      "openclaw-mem0": {
+        "config": {
+          "mode": "external-api",
+          "userId": "default",
+          "autoCapture": true,
+          "autoRecall": true,
+          "externalApi": {
+            "searchUrl": "xiaomi/search",
+            "addUrl": "xiaomi/add",
+            "apiToken": "xiaomi_apikey",
+            "timeout": 10000
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 ## What's different from the official plugin
 
 The official `@mem0/openclaw-mem0` has several issues that break self-hosted deployments:
