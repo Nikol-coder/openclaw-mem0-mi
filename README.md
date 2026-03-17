@@ -17,7 +17,7 @@ Supports both the Mem0 cloud platform and self-hosted open-source deployments us
 ## Install
 
 ```bash
-openclaw plugins install github:tensakulabs/openclaw-mem0
+openclaw plugins install github:Nikol-coder/openclaw-mem0-mi
 ```
 
 ## Configuration
